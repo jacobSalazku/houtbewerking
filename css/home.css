@@ -1,0 +1,292 @@
+/*  Header   */
+.centered {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+  }
+  .centered h1{
+	  color: #F0E4B8;;
+	font-family: 'Woodcut';
+	font-size: 81px;
+	border:3px;
+	color: #F0E4B8;;
+	-webkit-text-fill-color: #F0E4B8;; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #4A9AA1;
+ 
+}
+.center2{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.center_h2 {
+	font-family: 'Woodhouse', sans-serif;
+	color: white;
+	font-size: 60px;
+	
+}
+
+.cta_div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cta_button{
+
+background-color:#F0E4B8; 
+color: #78643A; 
+border: 2px solid #78643A;
+padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.cta_button:hover {
+	background-color: #4A9AA1;
+	color: white;
+	transition-timing-function: ease-out 2s 2s;
+  }
+
+  .cta_button :hover a{
+	  text-decoration: none;
+  }
+
+
+
+/* gridbblock1 */
+
+
+div .container{
+	width: 100vw;
+	height: 55rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:1fr  ;
+	column-gap: 9rem;
+	margin : 12rem 12rem 12rem 12rem;
+}
+
+
+.textcon1{
+	margin-left: 10rem;
+	padding-top: 5rem;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	height: 44rem;
+	
+	
+}
+
+ h1{
+	
+	font-size: 45px;
+	color: #78643A;
+	padding-bottom: 30px;
+	margin-bottom: 1.5rem;
+}
+h2{
+	font-size: 35px;
+	color:#439AA1;
+	padding-bottom: 30px;
+}
+p{
+	font-family: 'Raleway' ;
+	font-size: 30px;
+	line-height: 45px;
+	
+}
+.piccon1{
+	
+	padding-left: 0;
+	padding-top: 6.25rem;
+	grid-column: 2/3;
+	grid-row:1/2;
+	
+margin-right: 6.25;
+}
+div .piccon1 img{
+    width:47rem ;
+    height:37rem ;
+}
+
+
+
+/* Funcfact*/
+
+
+div .factcon{
+    width: 90vw;
+    background-color: #439AA1 ;
+    margin-left: 0;
+	padding-top: 5rem;
+	padding-right:17rem ;
+    padding-left: 17rem;
+	padding-bottom: 5rem;
+}
+
+div .factcon h1{
+    text-align: center;
+	color: #F0E4B8;
+}
+div .factcon p{
+	line-height: 45px;
+	color: white;
+}
+
+
+
+   /* grid block 2 */
+
+
+
+
+div .container2{
+	width: 100vw;
+	height: 55rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:1fr  ;
+	column-gap: 9rem;
+	margin : 10rem 12rem 10rem 12rem;
+}
+
+.piccon2{
+	height: 44rem;
+	
+	padding-top: 6.25rem;
+	
+	grid-column: 2/3;
+	grid-row:1/2;
+}
+div .piccon2 img{
+    width:42rem ;
+    height:31.5rem ;
+}
+.textcon2{
+padding-top: 10rem;
+	text-align: left;
+	padding-top: 7.25rem;
+	grid-column: 1/2;
+	grid-row: 1/2;
+	margin-left: 10rem;
+	
+}
+.textcon2 p{
+	line-height: 45px;
+}
+div .textcon2 h1{
+	text-align: left;
+	
+}
+div .textcon2 #meerinfo p {
+	padding-top: 3rem;
+	color: #439AA1;
+	
+}
+
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+.button2 {
+	background-color:#E6EFF7; 
+	color: #4A9AA1; 
+	border: 2px solid #4A9AA1;
+  }
+  
+  .button2:hover {
+	background-color: #4A9AA1;
+	color: white;
+	transition-timing-function: ease-out 2s 2s;
+  }
+
+  .button .button2:hover a{
+	  text-decoration: none;
+  }
+  .footer{
+
+	width: 100vw;
+	height: 29.25rem;
+	background-color: #F0E4B8 ;
+}
+  .footer h1{
+	  color: #4A9AA1;
+	  text-align: center;
+	padding-top:11.5rem ;
+	letter-spacing: 5px;
+  }
+  
+
+  
+  
+  .center {
+	display: table;
+	width: 100%;
+
+  }
+  
+  #social-test {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 30px;
+  }
+	.social {
+	  padding-left: 0px;
+	}
+.social	li {
+	  display: inline-block;
+	}
+	.social li a {
+	  color: #78643A;
+	  border-radius: 6px;
+	  list-style-type: none;
+	  display: inline-block;
+	  width: 100px;
+	  height: 100px;
+	  line-height: 100px;
+	  padding: 1%;
+	  border: 1px solid #78643A;
+	  cursor: pointer;
+	  margin-left: 10px;
+	  margin-bottom: 20px;
+	  transition: ease .3s;
+	}
+
+.social	  li a:hover {
+		  background-color:#78643A ;
+		color:white;
+		border: 1px solid white;
+	  }
+	
+  
+  .social:hover > li {
+	opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+	opacity: 1;
+  }

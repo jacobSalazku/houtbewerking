@@ -1,0 +1,151 @@
+@media screen and (max-width:480px){
+
+    #wrapper{  
+        width: 100%;
+        margin: 0 auto;  
+    }
+
+
+
+
+    header{
+        height: auto;
+        border:#FEFB00 ;
+        background-image: none;
+        
+        
+    } 
+    header h1{ 
+        font-family: 'Bebas Neue',cursive;
+        color: white;
+        font-size:2.5rem;
+        padding-top: 35px;
+    
+    }
+    header button{
+        border: 1px solid #FEFB00 ;
+        background-color: transparent;
+        padding: 5px 1.25rem ;
+        margin-top: 10px;
+    }
+    header button a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1875rem;
+        font-size: 0.875rem;
+        
+
+    }
+    /* navigatie */
+
+    nav{
+        
+        height: auto;
+        line-height: 3rem;
+        background-color: black;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    
+        
+    }
+
+    nav ul li {
+        display:block ;
+        margin: left 0.825rem;
+        text-align:center ;
+        border-bottom: 1px solid #FEFB00;
+    
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.1875rem;
+        font-size: 1rem;
+    }
+    .logo{
+        height: 150px;
+        margin: 0px auto;
+        width: 100%;
+        display: block;
+        background-color: black;
+        text-align: center;
+        border-bottom: 1px solid #FEFB00;
+    }
+
+    section{
+    height: auto;   
+    text-align: center;
+    }
+
+    h2{
+        font-size: 2rem;   
+    }
+    main{
+    background-color: Black;
+    width: 100%;
+        float: none;
+    color: white;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid yellow;
+    }
+    aside{
+    margin-top: 50px;
+    color:white;
+        background-color:black   ;
+    width: 100%;
+    float:none; 
+    }
+    aside img{
+    display: none;
+    }
+}
+ @media screen and (min-width:481px) and (max-width:768px){
+
+
+    #wrapper{
+        width: 100%;
+    
+        margin: 0 auto;  
+    }
+    header button{
+     
+      
+    
+        margin-bottom: 30px;
+    }
+  
+    .logo{
+        height: auto;
+        width: 50%;
+        
+     
+    }
+
+    section{
+        height: auto;   
+        text-align: center;
+        }
+    
+    main{
+        background-color: Black;
+        width: 100%;
+            float: none;
+        color: white;
+        margin-right: 10%;
+        padding-bottom: 50px;
+        border-bottom: 1px solid yellow;
+        }
+        aside{
+        margin-top: 50px;
+        color:white;
+            background-color:black   ;
+        width: 100%;
+        float:none; 
+        }
+       
+    
+}

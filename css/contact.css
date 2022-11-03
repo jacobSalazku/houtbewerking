@@ -1,0 +1,135 @@
+
+
+
+section{
+    height: 100vh;
+    width:100% ;
+    background-color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    height: 75%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px darkgrey;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    width: 90%;
+    height: 90%;
+padding-left: 60px;
+padding-right: 20px;
+margin-top: 40px;
+font-size: 20px;
+}
+.form-group input, 
+.form-group textarea{
+    width: 90%;
+    padding: 10px;
+    font-size:18px;
+    border :1px solid rgba(128,128,0,199);
+    margin-top: 5px;
+}
+
+
+
+button{
+    background-color: #F0E4B8;
+    margin: 60px 60px;
+    padding : 20px 20px 20px 20px;
+    
+}
+button text{
+    font-size: 30px;
+     
+}
+button:hover{
+    background-color: #4A9AA1;
+	color: white;
+	transition-timing-function: ease-out 2s 2s;
+}
+textarea{
+
+    font-family: 'Raleway';
+}
+label{
+    color: #4A9AA1;
+    font-size: 30px;
+}
+
+
+
+
+/*footer*/
+.footer{
+
+	width: 100vw;
+	height: 29.25rem;
+	background-color: #F0E4B8 ;
+}
+  .footer h1{
+	  color: #4A9AA1;
+	  text-align: center;
+	padding-top:11.5rem ;
+	letter-spacing: 5px;
+    font-size: 45px;
+	margin-bottom: 1.5rem;
+  }
+
+  .center {
+	display: table;
+	width: 100%;
+
+  }
+  
+  #social-test {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 30px;
+  }
+	.social {
+	  padding-left: 0px;
+	}
+	.social li {
+	  display: inline-block;
+	}
+	.social li a {
+	  color: #78643A;
+	  border-radius: 6px;
+	  list-style-type: none;
+	  display: inline-block;
+	  width: 100px;
+	  height: 100px;
+	  line-height: 100px;
+	  padding: 1%;
+	  border: 1px solid #78643A;
+	  cursor: pointer;
+	  margin-left: 10px;
+	  margin-bottom: 20px;
+	  transition: ease .3s;
+	}
+
+	 .social li a:hover {
+		  background-color:#78643A ;
+		color:white;
+		border: 1px solid white;
+	  }
+	
+  
+  
+  .social:hover > li {
+	opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+	opacity: 1;
+  }

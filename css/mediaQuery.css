@@ -1,0 +1,284 @@
+@media screen and (max-width:480px){
+
+
+    body{
+
+        font-family: 'Woodhouse', sans-serif;
+        
+            
+          
+    }
+    
+    
+    
+    /* overlay  Text  */
+    
+    
+    
+    .centered {
+        display: none;
+    
+      }
+      .centered h1{
+          display: none;
+    }
+    
+    
+    
+    
+    /* Header*/
+    .wrapper{
+        width: 100%;
+        height: 80;
+    }
+    
+    /*   NAV */
+    
+    
+    div {
+    margin-right: 200px;
+    }
+    nav{
+        background-color: #439AA1;
+        height: auto;
+        line-height: 3rem;
+        
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    
+    }
+    nav ul{
+        width: 87.5%;
+    
+    }
+    nav ul li{
+        display:block ;
+        text-align:center ;
+        border-bottom: 1px solid #FEFB00;
+    
+    }
+    nav ul li a {
+        font-family: 'Woodhouse', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #F0E4B8;
+        font-size: 35px;
+        text-shadow: 1px 1px 2px black;
+        letter-spacing: 5px;
+        height: 100px;
+    }
+    
+    nav ul li a:hover{
+    
+        color: black;
+        transition-timing-function: ease-out 2s 2s
+    }
+    
+    #active{
+    
+        color: white;
+    }
+    .overlay{
+        display: none;
+    }
+    
+    
+    .centered {
+        display: none;
+        
+    
+      }
+      .centered h1{
+        display: none;
+        
+    }
+    .center2{
+        display: none;
+     
+    
+    }
+    
+    }
+    
+    .cta_div{
+        display: none;
+        
+    }
+    
+    
+
+
+    div .container{
+        width: 100%;
+        height: 55rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows:1fr  1fr ;
+        grid-template-areas: "piccon1"
+                            "textcon1"
+        ;
+        column-gap: 9rem;
+        margin : 12rem 12rem 12rem 12rem;
+    }
+
+
+    .textcon1{
+        grid-area: textcon1;
+        margin: O auto;
+        
+        
+    }
+    
+     h1{
+        
+        font-size: 45px;
+        color: #78643A;
+        padding-bottom: 30px;
+        margin-bottom: 1.5rem;
+    }
+    h2{
+        font-size: 35px;
+        color:#439AA1;
+        padding-bottom: 30px;
+    }
+    p{
+        font-family: 'Raleway' ;
+        font-size: 30px;
+        line-height: 45px;
+        
+    }
+    .piccon1{
+        grid-area:piccon1;
+        padding-left: 0;
+        padding-top: 6.25rem;
+        
+        
+    margin-right: 6.25;
+    }
+    div .piccon1 img{
+        max-width: 400px;
+        width:47rem ;
+        height:37rem ;
+    }
+    
+    
+    
+    /* Funcfact*/
+    
+    
+    div .factcon{
+        width: 90vw;
+        background-color: #439AA1 ;
+        margin-left: 0;
+        padding-top: 5rem;
+        padding-right:17rem ;
+        padding-left: 17rem;
+        padding-bottom: 5rem;
+    }
+    
+    div .factcon h1{
+        text-align: center;
+        color: #F0E4B8;
+    }
+    div .factcon p{
+        line-height: 45px;
+        color: white;
+    }
+    
+    
+    
+       /* grid block 2 */
+    
+    
+    
+    
+    div .container2{
+        width: 100vw;
+        height: 55rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr  ;
+        grid-template-areas: ;
+        column-gap: 9rem;
+        margin : 10rem 12rem 10rem 12rem;
+    }
+    
+    .piccon2{
+        height: 44rem;
+        
+        padding-top: 6.25rem;
+        
+        grid-column: 2/3;
+        grid-row:1/2;
+    }
+    div .piccon2 img{
+        width:42rem ;
+        height:31.5rem ;
+    }
+    .textcon2{
+    padding-top: 10rem;
+        text-align: left;
+        padding-top: 7.25rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-left: 10rem;
+        
+    }
+    .textcon2 p{
+        line-height: 45px;
+    }
+    div .textcon2 h1{
+        text-align: left;
+        
+    }
+    div .textcon2 #meerinfo p {
+        padding-top: 3rem;
+        color: #439AA1;
+        
+    }
+    
+    
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+    
+    .button2 {
+        background-color:#E6EFF7; 
+        color: #4A9AA1; 
+        border: 2px solid #4A9AA1;
+      }
+      
+      .button2:hover {
+        background-color: #4A9AA1;
+        color: white;
+        transition-timing-function: ease-out 2s 2s;
+      }
+    
+      .button .button2:hover a{
+          text-decoration: none;
+      }
+      .footer{
+    
+        width: 100vw;
+        height: 29.25rem;
+        background-color: #F0E4B8 ;
+    }
+      .footer h1{
+          color: #4A9AA1;
+          text-align: center;
+        padding-top:11.5rem ;
+        letter-spacing: 5px;
+      }
+}
+
